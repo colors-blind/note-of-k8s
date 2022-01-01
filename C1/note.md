@@ -381,12 +381,10 @@ WARNING: Your kernel does not support swap limit capabilities or the cgroup is n
 
 the container memory limit is 20MB, so it was killed.
 
-use `udo dmesg` check it out:
+use `sudo dmesg` check it out:
 
 ```
 [31442.526170] Memory cgroup out of memory: Killed process 29475 (memory_limit) total-vm:703436kB, anon-rss:19348kB, file-rss:1024kB, shmem-rss:0kB, UID:0 pgtables:116kB oom_score_adj:0
 
 ```
-
-
 
